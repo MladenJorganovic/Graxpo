@@ -33,7 +33,10 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
 }
 
-
+.container{
+    border-left: 1px solid purple;
+    border-right: 1px solid purple;
+}
 
 .dash:after{
     content: '';
@@ -46,6 +49,10 @@ h1,h2,h3,h4,h5,h6{
 
 .dash.text-center:after{
     margin: 15px auto 0;
+}
+
+.dash-white:after{
+    background: #fff !important;
 }
 
 /*HEADER*/
@@ -152,4 +159,13 @@ header{
 .service-item:hover .service-icon .fa{
     background: #fff;
     color: #E84C3D
+}
+
+
+/*PORTFOLIO*/
+
+.portfolio{
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
 }
